@@ -3,7 +3,7 @@
  * Comments Template
  * Required by ThemeForest even for block themes
  * 
- * @package Buzzed
+ * @package Dawn
  * @since 1.0.0
  */
 
@@ -31,7 +31,7 @@ if (have_comments()) : ?>
             <?php
             $comments_number = get_comments_number();
             if ('1' === $comments_number) {
-                printf(_x('One thought on &ldquo;%s&rdquo;', 'comments title', 'buzzed'), get_the_title());
+                printf(_x('One thought on &ldquo;%s&rdquo;', 'comments title', 'dawn'), get_the_title());
             } else {
                 printf(
                     _nx(
@@ -39,7 +39,7 @@ if (have_comments()) : ?>
                         '%1$s thoughts on &ldquo;%2$s&rdquo;',
                         $comments_number,
                         'comments title',
-                        'buzzed'
+                        'dawn'
                     ),
                     number_format_i18n($comments_number),
                     get_the_title()

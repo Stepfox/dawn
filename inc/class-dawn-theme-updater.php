@@ -2,10 +2,10 @@
 // Prevent direct access
 if (!defined('ABSPATH')) { exit; }
 
-if (!class_exists('Buzzed_Theme_Updater')) {
-    class Buzzed_Theme_Updater {
+if (!class_exists('Dawn_Theme_Updater')) {
+    class Dawn_Theme_Updater {
         private const REPO_OWNER = 'Stepfox';
-        private const REPO_NAME  = 'buzzed';
+        private const REPO_NAME  = 'dawn';
         private const BRANCH     = 'main';
         private static $last_branch = self::BRANCH;
         private static $last_source_dir = null;
@@ -56,7 +56,7 @@ if (!class_exists('Buzzed_Theme_Updater')) {
                 'author'      => '<a href="https://stepfoxthemes.com">Stepfox</a>',
                 'homepage'    => 'https://github.com/' . self::REPO_OWNER . '/' . self::REPO_NAME,
                 'download_link' => self::get_download_zip_url(),
-                'sections'    => array( 'description' => 'Buzzed theme auto-updates from GitHub.' ),
+                'sections'    => array( 'description' => 'Dawn theme auto-updates from GitHub.' ),
             );
             return $info;
         }
@@ -88,7 +88,7 @@ if (!class_exists('Buzzed_Theme_Updater')) {
         }
 
         private static function get_remote_version() {
-            $cache_key = 'buzzed_theme_remote_version';
+            $cache_key = 'dawn_theme_remote_version';
             $cached = get_site_transient($cache_key);
             if ($cached && !isset($_GET['force-check'])) { return $cached; }
 
@@ -104,7 +104,7 @@ if (!class_exists('Buzzed_Theme_Updater')) {
                 // Try common locations first
                 $candidates = array(
                     'https://raw.githubusercontent.com/' . self::REPO_OWNER . '/' . self::REPO_NAME . '/' . $branch . '/style.css',
-                    'https://raw.githubusercontent.com/' . self::REPO_OWNER . '/' . self::REPO_NAME . '/' . $branch . '/wp-content/themes/buzzed/style.css',
+                    'https://raw.githubusercontent.com/' . self::REPO_OWNER . '/' . self::REPO_NAME . '/' . $branch . '/wp-content/themes/dawn/style.css',
                 );
                 $discovered = self::discover_style_path($branch);
                 if ($discovered) {
@@ -128,7 +128,7 @@ if (!class_exists('Buzzed_Theme_Updater')) {
         }
 
         private static function get_repo_default_branch() {
-            $cache_key = 'buzzed_theme_default_branch';
+            $cache_key = 'dawn_theme_default_branch';
             $cached = get_site_transient($cache_key);
             if ($cached && is_string($cached)) { return $cached; }
             $url = 'https://api.github.com/repos/' . self::REPO_OWNER . '/' . self::REPO_NAME;
@@ -144,7 +144,7 @@ if (!class_exists('Buzzed_Theme_Updater')) {
         }
 
         private static function discover_style_path($branch) {
-            $cache_key = 'buzzed_theme_style_path_' . sanitize_title($branch);
+            $cache_key = 'dawn_theme_style_path_' . sanitize_title($branch);
             $cached = get_site_transient($cache_key);
             if (is_string($cached) && $cached !== '') { return $cached; }
             $url = 'https://api.github.com/repos/' . self::REPO_OWNER . '/' . self::REPO_NAME . '/git/trees/' . rawurlencode($branch) . '?recursive=1';
@@ -169,7 +169,7 @@ if (!class_exists('Buzzed_Theme_Updater')) {
         }
 
         public static function maybe_bust_cache() {
-            if (isset($_GET['force-check'])) { delete_site_transient('buzzed_theme_remote_version'); }
+            if (isset($_GET['force-check'])) { delete_site_transient('dawn_theme_remote_version'); }
         }
 
         public static function ensure_clear_destination($options) {
@@ -208,7 +208,7 @@ if (!class_exists('Buzzed_Theme_Updater')) {
                 $zip_url = self::get_download_zip_url();
                 $tmp = download_url($zip_url);
                 if (!is_wp_error($tmp) && file_exists($tmp)) {
-                    $work = trailingslashit(WP_CONTENT_DIR) . 'upgrade/buzzed-manual-' . time();
+                    $work = trailingslashit(WP_CONTENT_DIR) . 'upgrade/dawn-manual-' . time();
                     @mkdir($work, 0755, true);
                     $unzipped = unzip_file($tmp, $work);
                     @unlink($tmp);
@@ -260,7 +260,7 @@ if (!class_exists('Buzzed_Theme_Updater')) {
             self::debug_log('manual_copy: failed');
             return false;
         }
-        private static function debug_log($msg) { error_log('[Buzzed Theme Updater] ' . (is_string($msg) ? $msg : json_encode($msg))); }
+        private static function debug_log($msg) { error_log('[Dawn Theme Updater] ' . (is_string($msg) ? $msg : json_encode($msg))); }
     }
 }
 

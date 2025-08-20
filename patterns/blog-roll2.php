@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: blog-roll2
- * Slug: buzzed/blog-roll2
+ * Slug: dawn/blog-roll2
  * Inserter: no
  */
 ?>
@@ -15,7 +15,7 @@
 
 <!-- wp:group {"customId":"87645c","style":{"spacing":{"blockGap":"5px"}},"fontSize":"14","fontFamily":"oswald","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
 <div class="wp-block-group has-oswald-font-family has-14-font-size"><!-- wp:paragraph {"customId":"43d210"} -->
-<p><?php esc_html_e('by', 'buzzed');?></p>
+<p><?php esc_html_e('by', 'dawn');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:post-author-name {"isLink":true,"customId":"91bd21","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}}} /--></div>

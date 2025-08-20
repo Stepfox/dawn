@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: front-page-two
- * Slug: buzzed/front-page-two
+ * Slug: dawn/front-page-two
  * Inserter: no
  */
 ?>

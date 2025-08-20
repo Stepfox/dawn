@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: front-page
- * Slug: buzzed/front-page
+ * Slug: dawn/front-page
  * Inserter: no
  */
 ?>
@@ -40,7 +40,7 @@
 <div class="wp-block-columns"><!-- wp:column {"width":"25%","width_desktop":"25%","width_tablet":"45%","width_mobile":"100%","customId":"51c17a","custom_css":"this_block{\nbox-sizing:border-box;\n}","style":{"spacing":{"padding":{"top":"20px","bottom":"20px","left":"20px","right":"20px"}},"border":{"radius":"0px","width":"1px"}},"backgroundColor":"light-gray","textColor":"","gradient":"","borderColor":"gray","layout":{"type":"constrained"}} -->
 <div class="wp-block-column has-border-color has-gray-border-color has-light-gray-background-color has-background" style="border-width:1px;border-radius:0px;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;flex-basis:25%"><!-- wp:group {"desktop_pos":{"top":"","left":"-25px","right":"","bottom":""},"customId":"7b09e2","style":{"typography":{"textTransform":"uppercase","lineHeight":"0"},"spacing":{"padding":{"left":"5px"},"margin":{"bottom":"20px"}}},"fontSize":"18","fontFamily":"oswald","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-oswald-font-family has-18-font-size" style="margin-bottom:20px;padding-left:5px;line-height:0;text-transform:uppercase"><!-- wp:heading {"level":4,"customId":"3e9279","style":{"typography":{"textTransform":"uppercase","lineHeight":"0.9"},"spacing":{"padding":{"left":"5px"},"margin":{"bottom":"20px"}},"border":{"left":{"color":"var:preset|color|primary","width":"15px"}}},"fontSize":"18","fontFamily":"oswald"} -->
-<h4 class="wp-block-heading has-oswald-font-family has-18-font-size" style="border-left-color:var(--wp--preset--color--primary);border-left-width:15px;margin-bottom:20px;padding-left:5px;line-height:0.9;text-transform:uppercase"><?php esc_html_e('Newsroll', 'buzzed');?></h4>
+<h4 class="wp-block-heading has-oswald-font-family has-18-font-size" style="border-left-color:var(--wp--preset--color--primary);border-left-width:15px;margin-bottom:20px;padding-left:5px;line-height:0.9;text-transform:uppercase"><?php esc_html_e('Newsroll', 'dawn');?></h4>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -56,7 +56,7 @@
 
 <!-- wp:group {"customId":"3b5ada","align":"full","style":{"spacing":{"blockGap":"5px"}},"fontSize":"14","fontFamily":"oswald","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
 <div class="wp-block-group alignfull has-oswald-font-family has-14-font-size"><!-- wp:paragraph {"customId":"446e77"} -->
-<p><?php esc_html_e('by', 'buzzed');?></p>
+<p><?php esc_html_e('by', 'dawn');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:post-author-name {"isLink":true,"customId":"2a5043","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}}} /--></div>
@@ -117,16 +117,16 @@
 <!-- wp:group {"customId":"05fafd","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group"><!-- wp:group {"customId":"9eb17a","layout":{"type":"flex","flexWrap":"wrap","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"width_mobile":"100%","customId":"ceab54","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"700"}},"textColor":"primary"} -->
-<h3 class="wp-block-heading has-primary-color has-text-color has-link-color" style="font-style:normal;font-weight:700"><?php esc_html_e('Culture', 'buzzed');?></h3>
+<h3 class="wp-block-heading has-primary-color has-text-color has-link-color" style="font-style:normal;font-weight:700"><?php esc_html_e('Culture', 'dawn');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"width_mobile":"100%","customId":"84e8e0","style":{"elements":{"link":{"color":{"text":"var:preset|color|gray"}}}},"textColor":"gray","fontSize":"18","fontFamily":"raleway"} -->
-<p class="has-gray-color has-text-color has-link-color has-raleway-font-family has-18-font-size"><?php esc_html_e('Events, Gatherings, Exhibitions, Art, Museums', 'buzzed');?></p>
+<p class="has-gray-color has-text-color has-link-color has-raleway-font-family has-18-font-size"><?php esc_html_e('Events, Gatherings, Exhibitions, Art, Museums', 'dawn');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":4,"customId":"0be876","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontSize":"27"} -->
-<h4 class="wp-block-heading has-primary-color has-text-color has-link-color has-27-font-size"><?php esc_html_e('More Culture→', 'buzzed');?></h4>
+<h4 class="wp-block-heading has-primary-color has-text-color has-link-color has-27-font-size"><?php esc_html_e('More Culture→', 'dawn');?></h4>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -159,16 +159,16 @@
 <!-- wp:group {"customId":"f91b67","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group"><!-- wp:group {"customId":"41dc51","layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"customId":"6bc712","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"700"}},"textColor":"primary"} -->
-<h3 class="wp-block-heading has-primary-color has-text-color has-link-color" style="font-style:normal;font-weight:700"><?php esc_html_e('Gaming', 'buzzed');?></h3>
+<h3 class="wp-block-heading has-primary-color has-text-color has-link-color" style="font-style:normal;font-weight:700"><?php esc_html_e('Gaming', 'dawn');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"customId":"9ba387","style":{"elements":{"link":{"color":{"text":"var:preset|color|gray"}}}},"textColor":"gray","fontSize":"18","fontFamily":"raleway"} -->
-<p class="has-gray-color has-text-color has-link-color has-raleway-font-family has-18-font-size"><?php esc_html_e('PC, Xbox, Playstation, Nintendo, iOS, Android, Steam', 'buzzed');?></p>
+<p class="has-gray-color has-text-color has-link-color has-raleway-font-family has-18-font-size"><?php esc_html_e('PC, Xbox, Playstation, Nintendo, iOS, Android, Steam', 'dawn');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":4,"customId":"da7cc1","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontSize":"27"} -->
-<h4 class="wp-block-heading has-primary-color has-text-color has-link-color has-27-font-size"><?php esc_html_e('More Gaming →', 'buzzed');?></h4>
+<h4 class="wp-block-heading has-primary-color has-text-color has-link-color has-27-font-size"><?php esc_html_e('More Gaming →', 'dawn');?></h4>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -211,16 +211,16 @@
 <!-- wp:group {"customId":"60a09a","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group"><!-- wp:group {"customId":"4726bf","layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"customId":"4a6aea","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"700"}},"textColor":"primary"} -->
-<h3 class="wp-block-heading has-primary-color has-text-color has-link-color" style="font-style:normal;font-weight:700"><?php esc_html_e('Opinion', 'buzzed');?></h3>
+<h3 class="wp-block-heading has-primary-color has-text-color has-link-color" style="font-style:normal;font-weight:700"><?php esc_html_e('Opinion', 'dawn');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"customId":"2cf627","style":{"elements":{"link":{"color":{"text":"var:preset|color|gray"}}}},"textColor":"gray","fontSize":"18","fontFamily":"raleway"} -->
-<p class="has-gray-color has-text-color has-link-color has-raleway-font-family has-18-font-size"><?php esc_html_e('Just what we think about things, our 2 cents', 'buzzed');?></p>
+<p class="has-gray-color has-text-color has-link-color has-raleway-font-family has-18-font-size"><?php esc_html_e('Just what we think about things, our 2 cents', 'dawn');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":4,"customId":"abfbe9","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontSize":"27"} -->
-<h4 class="wp-block-heading has-primary-color has-text-color has-link-color has-27-font-size"><?php esc_html_e('More Opinions →', 'buzzed');?></h4>
+<h4 class="wp-block-heading has-primary-color has-text-color has-link-color has-27-font-size"><?php esc_html_e('More Opinions →', 'dawn');?></h4>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -231,7 +231,7 @@
 <!-- /wp:post-template -->
 
 <!-- wp:stepfox/query-loop-load-more {"width_desktop":"100%","customId":"cb6638","custom_css":"this_block{text-align:center;}","backgroundColor":"primary","textColor":"white","fontFamily":"montserrat","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"spacing":{"padding":{"top":"10px","bottom":"10px"}},"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"800"}}} -->
-<button type="button" class="wp-block-stepfox-query-loop-load-more query-loop-load-more-button has-white-color has-primary-background-color has-text-color has-background has-link-color has-montserrat-font-family" style="padding-top:10px;padding-bottom:10px;font-style:normal;font-weight:800;text-transform:uppercase"><?php esc_html_e('Load More', 'buzzed'); ?></button>
+<button type="button" class="wp-block-stepfox-query-loop-load-more query-loop-load-more-button has-white-color has-primary-background-color has-text-color has-background has-link-color has-montserrat-font-family" style="padding-top:10px;padding-bottom:10px;font-style:normal;font-weight:800;text-transform:uppercase"><?php esc_html_e('Load More', 'dawn'); ?></button>
 <!-- /wp:stepfox/query-loop-load-more --></div>
 <!-- /wp:query --></div>
 <!-- /wp:group --></div>

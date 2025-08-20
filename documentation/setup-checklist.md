@@ -1,11 +1,11 @@
-# Buzzed Theme - Setup Checklist
+# Dawn Theme - Setup Checklist
 
 ## 🚀 Quick Setup (5 Minutes)
 
 ### Step 1: Install & Activate
-- [ ] Upload Buzzed theme via Appearance > Themes > Add New
+- [ ] Upload Dawn theme via Appearance > Themes > Add New
 - [ ] Click "Activate" to enable the theme
-- [ ] Verify theme is active (should show "Active: Buzzed" in theme list)
+- [ ] Verify theme is active (should show "Active: Dawn" in theme list)
 
 ### Step 2: Install Companion Plugin
 - [ ] Go to Appearance > Install Plugins  
@@ -246,4 +246,4 @@ For multi-language sites:
 
 ---
 
-*This setup checklist ensures your Buzzed theme is properly configured and ready for launch. Take your time with each step for best results.*
+*This setup checklist ensures your Dawn theme is properly configured and ready for launch. Take your time with each step for best results.*

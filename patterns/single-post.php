@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: single-post
- * Slug: buzzed/single-post
+ * Slug: dawn/single-post
  * Inserter: no
  */
 ?>
@@ -33,7 +33,7 @@
 <div class="wp-block-group"><!-- wp:group {"width_desktop":"100%","customId":"c22240","style":{"layout":{"selfStretch":"fixed","flexSize":"100%"},"border":{"top":{"color":"var:preset|color|gray","width":"1px"},"bottom":{"color":"var:preset|color|gray","width":"1px"},"right":[],"left":[]},"spacing":{"padding":{"top":"10px","bottom":"10px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group" style="border-top-color:var(--wp--preset--color--gray);border-top-width:1px;border-bottom-color:var(--wp--preset--color--gray);border-bottom-width:1px;padding-top:10px;padding-bottom:10px"><!-- wp:group {"customId":"00e6ba","style":{"spacing":{"blockGap":"5px"}},"fontSize":"16","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
 <div class="wp-block-group has-16-font-size"><!-- wp:paragraph {"align":"left","customId":"30ae2b"} -->
-<p class="has-text-align-left"><?php esc_html_e('by', 'buzzed');?></p>
+<p class="has-text-align-left"><?php esc_html_e('by', 'dawn');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:post-author-name {"isLink":true,"customId":"85c99d","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}}} /--></div>
@@ -49,7 +49,7 @@
 <!-- wp:group {"customId":"daa16f","layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"customId":"b07a71","style":{"spacing":{"blockGap":"1px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"desktop_padding":{"top":"0px","left":"5px","right":"5px","bottom":"0px"},"customId":"8caac0","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"backgroundColor":"dark","textColor":"white"} -->
-<p class="has-white-color has-dark-background-color has-text-color has-background has-link-color" style="font-style:normal;font-weight:600"><?php esc_html_e('TAGS', 'buzzed');?></p>
+<p class="has-white-color has-dark-background-color has-text-color has-background has-link-color" style="font-style:normal;font-weight:600"><?php esc_html_e('TAGS', 'dawn');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:post-terms {"term":"post_tag","prefix":" ","customId":"8cb5ec","custom_css":"this_block a{background:#F00;color:#FFF;padding:2px 5px;}","style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"fontSize":"14","fontFamily":"oswald"} /--></div>
@@ -126,7 +126,7 @@
 
 <!-- wp:query {"queryId":0,"query":{"perPage":4,"pages":0,"offset":"14","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":null,"parents":[],"format":[]},"customId":"18d5b7","customPostsPerPage":4} -->
 <div class="wp-block-query"><!-- wp:heading {"customId":"6e0596","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontSize":"24","fontFamily":"montserrat"} -->
-<h2 class="wp-block-heading has-primary-color has-text-color has-link-color has-montserrat-font-family has-24-font-size"><?php esc_html_e('LATEST NEWS', 'buzzed');?></h2>
+<h2 class="wp-block-heading has-primary-color has-text-color has-link-color has-montserrat-font-family has-24-font-size"><?php esc_html_e('LATEST NEWS', 'dawn');?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:post-template {"customId":"135116"} -->
@@ -153,7 +153,7 @@
 
 <!-- wp:group {"customId":"903160","style":{"spacing":{"blockGap":"5px"}},"fontSize":"14","fontFamily":"oswald","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
 <div class="wp-block-group has-oswald-font-family has-14-font-size"><!-- wp:paragraph {"customId":"0a8e45"} -->
-<p><?php esc_html_e('by', 'buzzed');?></p>
+<p><?php esc_html_e('by', 'dawn');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:post-author-name {"isLink":true,"customId":"31f912","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}}} /--></div>

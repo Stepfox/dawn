@@ -1,4 +1,4 @@
-# Buzzed Theme - Complete User Guide
+# Dawn Theme - Complete User Guide
 
 ## 📚 Table of Contents
 1. [Quick Start](#quick-start)
@@ -20,7 +20,7 @@
 - **Memory**: 256MB minimum (512MB recommended)
 
 ### 1-Minute Setup
-1. **Upload & Activate**: Install Buzzed theme from Appearance > Themes
+1. **Upload & Activate**: Install Dawn theme from Appearance > Themes
 2. **Install Plugin**: Install the recommended "Stepfox Looks" plugin
 3. **Site Editor**: Go to Appearance > Site Editor to start customizing
 4. **Choose Template**: Select "Front Page" template to customize your homepage
@@ -33,7 +33,7 @@
 ```
 1. WordPress Admin → Appearance → Themes
 2. Click "Add New" → "Upload Theme"
-3. Choose buzzed.zip file
+3. Choose dawn.zip file
 4. Click "Install Now" → "Activate"
 ```
 
@@ -58,7 +58,7 @@
 ## 🔧 Responsive Controls
 
 ### Accessing Responsive Settings
-The Buzzed theme includes **revolutionary responsive controls** that work with every block:
+The Dawn theme includes **revolutionary responsive controls** that work with every block:
 
 1. **Select Any Block** in the block editor
 2. **Look for "Responsive" Panel** in the right sidebar
@@ -265,7 +265,7 @@ Before making major changes:
 ## 📞 Support & Resources
 
 ### Getting Help
-- **Documentation**: Visit https://stepfoxthemes.com/docs/buzzed
+- **Documentation**: Visit https://stepfoxthemes.com/docs/dawn
 - **Support Tickets**: https://stepfoxthemes.com/support
 - **Video Tutorials**: https://stepfoxthemes.com/tutorials
 - **Community Forum**: Connect with other users
@@ -310,4 +310,4 @@ Before making major changes:
 
 ---
 
-*This documentation covers Buzzed Theme v1.0.0. For the latest updates and features, visit [stepfoxthemes.com](https://stepfoxthemes.com).*
+*This documentation covers Dawn Theme v1.0.0. For the latest updates and features, visit [stepfoxthemes.com](https://stepfoxthemes.com).*

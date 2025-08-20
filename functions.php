@@ -1,8 +1,8 @@
 <?php
 /**
- * Buzzed Theme Functions
+ * Dawn Theme Functions
  * 
- * @package Buzzed
+ * @package Dawn
  * @since 1.0.0
  */
 
@@ -15,9 +15,9 @@ if (!defined('ABSPATH')) {
  * Theme setup function
  * Sets up theme defaults and registers support for various WordPress features
  */
-function buzzed_theme_setup() {
+function dawn_theme_setup() {
     // Make theme available for translation
-    load_theme_textdomain('buzzed', get_template_directory() . '/languages');
+    load_theme_textdomain('dawn', get_template_directory() . '/languages');
 
     // Add default posts and comments RSS feed links to head
     add_theme_support('automatic-feed-links');
@@ -70,15 +70,15 @@ function buzzed_theme_setup() {
     // Enqueue editor styles
     add_editor_style('style.css');
 }
-add_action('after_setup_theme', 'buzzed_theme_setup');
+add_action('after_setup_theme', 'dawn_theme_setup');
 
 /**
  * Enqueue scripts and styles
  */
-function buzzed_scripts() {
+function dawn_scripts() {
     // Enqueue theme stylesheet
     wp_enqueue_style(
-        'buzzed-style',
+        'dawn-style',
         get_stylesheet_uri(),
         array(),
         wp_get_theme()->get('Version')
@@ -89,12 +89,12 @@ function buzzed_scripts() {
         wp_enqueue_script('comment-reply');
     }
 }
-add_action('wp_enqueue_scripts', 'buzzed_scripts');
+add_action('wp_enqueue_scripts', 'dawn_scripts');
 
 /**
  * Add admin styles for the site editor interface
  */
-function buzzed_admin_styles() {
+function dawn_admin_styles() {
     // Only load on site editor pages
     if (!is_admin() || !current_user_can('edit_theme_options')) {
         return;
@@ -103,31 +103,31 @@ function buzzed_admin_styles() {
     $screen = get_current_screen();
     if ($screen && strpos($screen->id, 'site-editor') !== false) {
         wp_enqueue_style(
-            'buzzed-admin-editor',
+            'dawn-admin-editor',
             get_template_directory_uri() . '/assets/css/admin-editor.css',
             array('wp-admin'),
             wp_get_theme()->get('Version')
         );
     }
 }
-add_action('admin_enqueue_scripts', 'buzzed_admin_styles');
+add_action('admin_enqueue_scripts', 'dawn_admin_styles');
 
 /**
  * Include TGM Plugin Activation for plugin recommendations
  * This provides a professional interface for users to install companion plugins
  */
-function buzzed_load_tgmpa() {
+function dawn_load_tgmpa() {
     $tgmpa_file = get_template_directory() . '/inc/tgm-plugin-activation.php';
     if (file_exists($tgmpa_file)) {
         require_once $tgmpa_file;
     }
 }
-add_action('after_setup_theme', 'buzzed_load_tgmpa');
+add_action('after_setup_theme', 'dawn_load_tgmpa');
 
 /**
  * Load GitHub Theme Updater
  */
-require_once get_template_directory() . '/inc/class-buzzed-theme-updater.php';
-if (class_exists('Buzzed_Theme_Updater')) {
-    Buzzed_Theme_Updater::init();
+require_once get_template_directory() . '/inc/class-dawn-theme-updater.php';
+if (class_exists('Dawn_Theme_Updater')) {
+    Dawn_Theme_Updater::init();
 }

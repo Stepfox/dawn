@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: header-2
- * Slug: buzzed/header-2
+ * Slug: dawn/header-2
  * Inserter: no
  */
 ?>

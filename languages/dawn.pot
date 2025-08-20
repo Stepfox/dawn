@@ -2,7 +2,7 @@
 # This file is distributed under the GPL v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Buzzed 1.0.0\n"
+"Project-Id-Version: Dawn 1.0.0\n"
 "Report-Msgid-Bugs-To: https://stepfoxthemes.com/support\n"
 "POT-Creation-Date: 2024-01-01 00:00:00+00:00\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Language: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: WordPress\n"
-"X-Domain: buzzed\n"
+"X-Domain: dawn\n"
 
 #: blocks/load-more/load-more.php:45
 msgid "Load More"
@@ -29,11 +29,11 @@ msgid "Casino Review"
 msgstr ""
 
 #. Theme Name of the theme
-msgid "Buzzed"
+msgid "Dawn"
 msgstr ""
 
 #. Theme URI of the theme
-msgid "https://stepfoxthemes.com/themes/buzzed/"
+msgid "https://stepfoxthemes.com/themes/dawn/"
 msgstr ""
 
 #. Description of the theme

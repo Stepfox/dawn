@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: footer
- * Slug: buzzed/footer
+ * Slug: dawn/footer
  * Inserter: no
  */
 ?>
@@ -35,7 +35,7 @@
 
 <!-- wp:group {"customId":"a24004","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center","customId":"1f2e67","style":{"typography":{"textTransform":"uppercase"}},"fontFamily":"oswald"} -->
-<p class="has-text-align-center has-oswald-font-family" style="text-transform:uppercase"><?php esc_html_e('Copyright 2025 buzzed Magazine Theme. Stepfox LLC', 'buzzed');?></p>
+<p class="has-text-align-center has-oswald-font-family" style="text-transform:uppercase"><?php esc_html_e('Copyright 2025 dawn Magazine Theme. Stepfox LLC', 'dawn');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

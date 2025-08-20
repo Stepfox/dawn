@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: archive
- * Slug: buzzed/archive
+ * Slug: dawn/archive
  * Inserter: no
  */
 ?>
@@ -13,7 +13,7 @@
 <div class="wp-block-group" style="margin-top:20px;margin-bottom:20px"><!-- wp:query-title {"type":"archive","textAlign":"left","font_size_tablet":"50px","font_size_mobile":"35px","customId":"cc4579","style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600"}},"fontSize":"42","fontFamily":"montserrat"} /-->
 
 <!-- wp:heading {"level":5,"customId":"9160df","style":{"typography":{"textTransform":"uppercase"}}} -->
-<h5 class="wp-block-heading" style="text-transform:uppercase"><?php esc_html_e('Popular Posts This Week', 'buzzed');?></h5>
+<h5 class="wp-block-heading" style="text-transform:uppercase"><?php esc_html_e('Popular Posts This Week', 'dawn');?></h5>
 <!-- /wp:heading -->
 
 <!-- wp:group {"customId":"8de29f","layout":{"type":"flex","orientation":"vertical"}} -->
@@ -48,15 +48,15 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"25%","width_desktop":"25%","customId":"fb3973","style":{"spacing":{"blockGap":"20px"}}} -->
-<div class="wp-block-column" style="flex-basis:25%"><!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/300x600-buzzed-ad.jpg","dimRatio":0,"customOverlayColor":"#595761","isUserOverlayColor":false,"minHeight":625,"minHeightUnit":"px","customId":"808ddc"} -->
-<div class="wp-block-cover" style="min-height:625px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#595761"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/300x600-buzzed-ad.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","customId":"3bc9c0","fontSize":"large"} -->
+<div class="wp-block-column" style="flex-basis:25%"><!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/300x600-dawn-ad.jpg","dimRatio":0,"customOverlayColor":"#595761","isUserOverlayColor":false,"minHeight":625,"minHeightUnit":"px","customId":"808ddc"} -->
+<div class="wp-block-cover" style="min-height:625px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#595761"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/300x600-dawn-ad.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","customId":"3bc9c0","fontSize":"large"} -->
 <p class="has-text-align-center has-large-font-size"></p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:query {"queryId":0,"query":{"perPage":4,"pages":0,"offset":"14","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":null,"parents":[],"format":[]},"customId":"18d5b7","customPostsPerPage":4} -->
 <div class="wp-block-query"><!-- wp:heading {"customId":"6e0596","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontSize":"24","fontFamily":"montserrat"} -->
-<h2 class="wp-block-heading has-primary-color has-text-color has-link-color has-montserrat-font-family has-24-font-size"><?php esc_html_e('LATEST NEWS', 'buzzed');?></h2>
+<h2 class="wp-block-heading has-primary-color has-text-color has-link-color has-montserrat-font-family has-24-font-size"><?php esc_html_e('LATEST NEWS', 'dawn');?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:post-template {"customId":"135116"} -->

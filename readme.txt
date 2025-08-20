@@ -1,4 +1,4 @@
-=== Buzzed ===
+=== Dawn ===
 
 Contributors: stepfox
 Tags: blog, news, two-columns, right-sidebar, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, flexible-header, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
@@ -13,7 +13,7 @@ Professional responsive news theme designed for modern content creators with com
 
 == Description ==
 
-Buzzed is a professional, responsive news theme designed specifically for modern content creators, journalists, and news organizations. Built with WordPress's latest block editor technology, it offers a clean, accessible design that prioritizes readability and user experience.
+Dawn is a professional, responsive news theme designed specifically for modern content creators, journalists, and news organizations. Built with WordPress's latest block editor technology, it offers a clean, accessible design that prioritizes readability and user experience.
 
 = Key Features =
 
@@ -56,7 +56,7 @@ Buzzed is a professional, responsive news theme designed specifically for modern
 1. Log in to your WordPress admin panel
 2. Navigate to Appearance > Themes
 3. Click "Add New"
-4. Search for "Buzzed"
+4. Search for "Dawn"
 5. Click "Install" and then "Activate"
 
 = Manual Installation =
@@ -92,7 +92,7 @@ The plugin is recommended but not required for basic theme functionality.
 
 = Is this theme compatible with page builders? =
 
-Buzzed is built for WordPress's native block editor (Gutenberg) and Full Site Editing. While it may work with page builders, it's optimized for the block editor experience.
+Dawn is built for WordPress's native block editor (Gutenberg) and Full Site Editing. While it may work with page builders, it's optimized for the block editor experience.
 
 = Can I customize the colors and fonts? =
 
@@ -100,7 +100,7 @@ Yes! The theme includes multiple color schemes and typography options. You can c
 
 = Is the theme translation ready? =
 
-Absolutely! Buzzed is fully translation ready with a complete .pot file included. It supports RTL languages as well.
+Absolutely! Dawn is fully translation ready with a complete .pot file included. It supports RTL languages as well.
 
 = Does it work with WooCommerce? =
 
@@ -116,7 +116,7 @@ Demo content may be available separately. Check with the theme developer for dem
 
 = Full Site Editing (FSE) Theme =
 
-As a modern Full Site Editing (FSE) block theme, 'Buzzed' utilizes block templates. The standard WordPress functions wp_head(), wp_footer(), and body_class() are handled automatically by the WordPress core during the rendering of these templates and do not need to be called manually.
+As a modern Full Site Editing (FSE) block theme, 'Dawn' utilizes block templates. The standard WordPress functions wp_head(), wp_footer(), and body_class() are handled automatically by the WordPress core during the rendering of these templates and do not need to be called manually.
 
 == Screenshots ==
 
@@ -142,7 +142,7 @@ As a modern Full Site Editing (FSE) block theme, 'Buzzed' utilizes block templat
 == Upgrade Notice ==
 
 = 1.0.0 =
-Initial release of Buzzed theme.
+Initial release of Dawn theme.
 
 == Credits ==
 
@@ -156,12 +156,12 @@ Initial release of Buzzed theme.
 For theme support, documentation, and updates:
 * Website: https://stepfoxthemes.com
 * Support: https://stepfoxthemes.com/support
-* Documentation: https://stepfoxthemes.com/docs/buzzed
+* Documentation: https://stepfoxthemes.com/docs/dawn
 
 == License ==
 
-Buzzed WordPress Theme, Copyright 2024 Stepfox
-Buzzed is distributed under the terms of the GNU GPL v2 or later.
+Dawn WordPress Theme, Copyright 2024 Stepfox
+Dawn is distributed under the terms of the GNU GPL v2 or later.
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

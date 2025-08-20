@@ -1,4 +1,4 @@
-# Buzzed Theme - Troubleshooting Guide
+# Dawn Theme - Troubleshooting Guide
 
 ## 🚨 Emergency Quick Fixes
 
@@ -387,4 +387,4 @@ define('SAVEQUERIES', true);
 
 ---
 
-*This troubleshooting guide covers common issues with Buzzed Theme v1.0.0. For complex technical issues, please contact support at [stepfoxthemes.com/support](https://stepfoxthemes.com/support).*
+*This troubleshooting guide covers common issues with Dawn Theme v1.0.0. For complex technical issues, please contact support at [stepfoxthemes.com/support](https://stepfoxthemes.com/support).*
