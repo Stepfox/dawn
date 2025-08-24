@@ -1,0 +1,33 @@
+{
+	"settings": {
+		"color": {
+			"gradients": [
+				{
+					"gradient": "linear-gradient(90deg,rgb(63,163,242) 1%,rgb(74,33,91) 51%,rgb(255,0,68) 100%)",
+					"name": "Primary Gradient",
+					"slug": "primary"
+				},
+				{
+					"gradient": "linear-gradient(36deg,var(--wp--preset--color--primary) 65%,var(--wp--preset--color--background) 69%,rgba(205,81,224,0) 70%)",
+					"name": "Title Background",
+					"slug": "custom-title-background"
+				}
+			]
+		}
+	},
+	"styles": {
+		"css": ".wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content:hover{\ncolor: var(--wp--preset--color--primary);\n\n}\n",
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--oswald)",
+					"fontStyle": "normal",
+					"fontWeight": "400",
+					"letterSpacing": "0em"
+				}
+			}
+		}
+	},
+	"version": 3,
+	"title": "Blue and Red"
+}
