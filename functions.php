@@ -125,6 +125,74 @@ function dawn_load_tgmpa() {
 add_action('after_setup_theme', 'dawn_load_tgmpa');
 
 /**
+ * Register Group block style and enqueue its CSS
+ */
+function dawn_register_group_glow_style() {
+    // Register CSS and attach via style_handle so WP loads it in editor/frontend when block is present
+    wp_register_style(
+        'dawn-group-glow',
+        get_template_directory_uri() . '/assets/css/group-glow.css',
+        array(),
+        wp_get_theme()->get('Version')
+    );
+    // Register gradient border CSS
+    wp_register_style(
+        'dawn-group-gradient-border',
+        get_template_directory_uri() . '/assets/css/group-gradient-border.css',
+        array(),
+        wp_get_theme()->get('Version')
+    );
+
+    if (function_exists('register_block_style')) {
+        register_block_style(
+            'core/group',
+            array(
+                'name'         => 'dawn-glow',
+                'label'        => __('Dawn Glow', 'dawn'),
+                'style_handle' => 'dawn-group-glow'
+            )
+        );
+
+        register_block_style(
+            'core/group',
+            array(
+                'name'         => 'dawn-gradient-border',
+                'label'        => __('Gradient Border', 'dawn'),
+                'style_handle' => 'dawn-group-gradient-border'
+            )
+        );
+    }
+}
+add_action('init', 'dawn_register_group_glow_style');
+
+// Ensure CSS is present on both editor and frontend
+function dawn_enqueue_group_styles() {
+    // These were registered above; enqueue as a safety net
+    if (wp_style_is('dawn-group-glow', 'registered')) {
+        wp_enqueue_style('dawn-group-glow');
+    } else {
+        wp_enqueue_style(
+            'dawn-group-glow',
+            get_template_directory_uri() . '/assets/css/group-glow.css',
+            array(),
+            wp_get_theme()->get('Version')
+        );
+    }
+
+    if (wp_style_is('dawn-group-gradient-border', 'registered')) {
+        wp_enqueue_style('dawn-group-gradient-border');
+    } else {
+        wp_enqueue_style(
+            'dawn-group-gradient-border',
+            get_template_directory_uri() . '/assets/css/group-gradient-border.css',
+            array(),
+            wp_get_theme()->get('Version')
+        );
+    }
+}
+add_action('enqueue_block_assets', 'dawn_enqueue_group_styles');
+
+/**
  * Load GitHub Theme Updater
  */
 require_once get_template_directory() . '/inc/class-dawn-theme-updater.php';
