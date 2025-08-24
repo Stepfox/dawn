@@ -12,14 +12,19 @@
 			"duotone": [],
 			"gradients": [
 				{
-					"gradient": "linear-gradient(90deg,rgb(179,0,255) 0%,rgb(41,2,19) 51%,rgb(235,37,247) 100%)",
+					"gradient": "linear-gradient(90deg,rgb(0,59,130) 0%,rgb(41,2,19) 51%,rgb(169,0,70) 100%)",
 					"name": "Primary Gradient",
 					"slug": "primary"
 				},
 				{
-					"gradient": "linear-gradient(36deg,var(--wp--preset--color--primary) 65%,var(--wp--preset--color--background) 69%,rgba(205,81,224,0) 70%)",
-					"name": "Title Background",
-					"slug": "custom-title-background"
+					"gradient": "linear-gradient(135deg,rgb(7,174,227) 0%,rgb(255,2,2) 100%)",
+					"name": "Border Gradient",
+					"slug": "border-gradient"
+				},
+				{
+					"gradient": "linear-gradient(90deg,rgb(23,118,255) 0%,rgb(255,235,0) 33%,rgb(222,13,13) 50%,rgb(207,19,147) 68%,rgb(199,21,133) 80%,rgb(0,159,255) 100%)",
+					"name": "Glow Spectrum",
+					"slug": "glow"
 				}
 			],
 			"palette": [

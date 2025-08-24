@@ -1,13 +1,6 @@
 /* Group Gradient Border style for Dawn */
 .wp-block-group.is-style-dawn-gradient-border, .wp-block-group.is-style-dawn-gradient-border * {
 	box-sizing: border-box;
-	border-image: linear-gradient(to right, var(--wp--preset--color--primary) 0%, #3ec8f2 100%);
+	border-image: var(--wp--preset--gradient--border-gradient);
 	border-image-slice: 1;
 }
-
-/* Prefer preset gradient if available */
-.wp-block-group.is-style-dawn-gradient-border, .wp-block-group.is-style-dawn-gradient-border * {
-	border-image: var(--wp--preset--gradient--primary);
-	border-image-slice: 1;
-}
-
