@@ -191,11 +191,3 @@ function dawn_enqueue_group_styles() {
     }
 }
 add_action('enqueue_block_assets', 'dawn_enqueue_group_styles');
-
-/**
- * Load GitHub Theme Updater
- */
-require_once get_template_directory() . '/inc/class-dawn-theme-updater.php';
-if (class_exists('Dawn_Theme_Updater')) {
-    Dawn_Theme_Updater::init();
-}
